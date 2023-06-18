@@ -3,11 +3,11 @@ import Tab from "./Tab";
 
 const TopBar = () => {
   return (
-    <div className="flex">
-      <Tab title="Savings Accounts" />
-      <Tab title="Loans" />
-      <Tab title="CD's" />
-      <Tab title="IRA's" />
+    <div className="ml-12 flex">
+      <Tab title="Savings Accounts" link="#" />
+      <Tab title="Loans" link="#" active={true} />
+      <Tab title="CD's" link="#" />
+      <Tab title="IRA's" link="#" />
     </div>
   );
 };

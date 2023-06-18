@@ -5,7 +5,7 @@ import TableHead from "./TableHead";
 
 const Table = () => {
   return (
-    <div className="loan-table ml-8 mt-8 flex flex-col rounded-xl border-2 border-primaryBlue-300 bg-white">
+    <div className="loan-table ml-8 flex flex-col rounded-xl border-2 border-primaryBlue-300 bg-white">
       <div className="grid grid-cols-3">
         <TableHead title="Account Type" />
         <TableHead title="Term" className="text-center" />

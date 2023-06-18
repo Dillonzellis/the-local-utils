@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <h1 className="mb-12">Loan Rates</h1>
 
-      <div className="max-w-[800px]">
+      <div className="min-w-[700px] max-w-[800px] overflow-x-auto">
         <TopBar />
         <Table />
       </div>
