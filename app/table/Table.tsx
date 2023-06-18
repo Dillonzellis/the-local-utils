@@ -1,14 +1,14 @@
+import { Loans } from "../data";
 import ContentRow from "./ContentRow";
-import Head from "./Head";
-import { Loans } from "./data";
+import TableHead from "./TableHead";
 
 const Table = () => {
   return (
-    <div className="loan-table ml-8 mt-8 flex flex-col border-2 border-primaryBlue-300 rounded-xl bg-white">
+    <div className="loan-table ml-8 mt-8 flex flex-col rounded-xl border-2 border-primaryBlue-300 bg-white">
       <div className="grid grid-cols-3">
-        <Head title="Account Type" />
-        <Head title="Term" />
-        <Head title="APR" />
+        <TableHead title="Account Type" />
+        <TableHead title="Term" />
+        <TableHead title="APR" />
       </div>
       {Loans.map((loan, idx) => (
         <ContentRow

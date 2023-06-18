@@ -1,12 +1,13 @@
 import { LoanType } from "../data";
+import Cell from "./Cell";
 
 const ContentRow = ({ accountType, term, apr }: LoanType) => {
   return (
-    <tr>
-      <td className="pl-4 py-1">{accountType}</td>
-      <td className="pl-4 py-1">{term}</td>
-      <td className="pl-4 py-1">{apr}</td>
-    </tr>
+    <div className="grid grid-cols-3">
+      <Cell content={accountType} />
+      <Cell content={term} />
+      <Cell content={apr} />
+    </div>
   );
 };
 

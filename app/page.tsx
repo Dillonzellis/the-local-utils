@@ -1,5 +1,4 @@
-import Table from "./Table";
-import NewTable from "./table/NewTable";
+import Table from "./table/Table";
 
 export default function Home() {
   return (
@@ -9,8 +8,6 @@ export default function Home() {
       <div className="max-w-[800px]">
         <Table />
       </div>
-
-      {/* <NewTable /> */}
     </main>
   );
 }
