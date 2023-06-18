@@ -1,15 +1,10 @@
 type TableHeadProps = {
-  title: string;
-  className?: string;
+  children: React.ReactNode;
+  cols: string;
 };
 
-const TableHead = ({ title, className }: TableHeadProps) => {
-  return (
-    <div
-      className={`px-4 py-12 text-xl font-extrabold text-primaryBlue-400 ${className}`}>
-      {title}
-    </div>
-  );
+const TableHead = ({ children, cols }: TableHeadProps) => {
+  return <div className={`grid grid-cols-${cols}`}>{children}</div>;
 };
 
 export default TableHead;

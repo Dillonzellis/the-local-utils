@@ -1,15 +1,12 @@
 import React from "react";
 import Tab from "./Tab";
 
-const TopBar = () => {
-  return (
-    <div className="ml-12 flex">
-      <Tab title="Savings Accounts" link="#" />
-      <Tab title="Loans" link="#" active={true} />
-      <Tab title="CD's" link="#" />
-      <Tab title="IRA's" link="#" />
-    </div>
-  );
+type TopBarProps = {
+  children?: React.ReactNode;
+};
+
+const TopBar = ({ children }: TopBarProps) => {
+  return <div className="ml-12 flex">{children}</div>;
 };
 
 export default TopBar;
