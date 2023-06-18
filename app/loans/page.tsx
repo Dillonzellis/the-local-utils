@@ -12,12 +12,7 @@ import TopBar from "../table/TopBar";
 const LoanTable = () => {
   return (
     <div>
-      <TopBar>
-        <Tab title="Savings Account" link="#" />
-        <Tab title="Loan" link="#" active={true} />
-        <Tab title="CD's" link="#" />
-        <Tab title="IRA's" link="#" />
-      </TopBar>
+      <TopBar activeTab="Loan" />
       <TableContainer>
         <RateTable>
           <TableHead cols="3">
