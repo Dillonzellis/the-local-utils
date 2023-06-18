@@ -1,5 +1,5 @@
-import NewTable from "./table/NewTable";
 import Table from "./Table";
+import NewTable from "./table/NewTable";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
 
       <Table />
 
-
+      {/* <NewTable /> */}
     </main>
   );
 }

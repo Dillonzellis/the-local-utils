@@ -4,7 +4,7 @@ import THead from "./THead";
 
 const NewTable = () => {
   return (
-    <table className="mt-24 border rounded-xl p-6">
+    <table className="mt-24 border rounded-xl ml-12">
       <tr>
         <THead title="Account Type" />
         <THead title="Term" />
