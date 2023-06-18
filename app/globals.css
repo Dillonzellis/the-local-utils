@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Loans Table */
+
+.loan-table > div:nth-child(n + 2):nth-child(-n + 8) > div:nth-child(3) {
+  border-right: none;
+}

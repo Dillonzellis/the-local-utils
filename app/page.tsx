@@ -6,7 +6,9 @@ export default function Home() {
     <main>
       <h1>Loan Rates</h1>
 
-      <Table />
+      <div className="max-w-[800px]">
+        <Table />
+      </div>
 
       {/* <NewTable /> */}
     </main>
