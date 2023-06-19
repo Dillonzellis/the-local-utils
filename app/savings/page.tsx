@@ -10,7 +10,7 @@ import { savingsData } from "./savingsData";
 const page = () => {
   return (
     <div>
-      <TopBar activeTab="CD's" />
+      <TopBar activeTab="Savings Account" />
       <TableContainer>
         <RateTable>
           <TableHead cols="3">
