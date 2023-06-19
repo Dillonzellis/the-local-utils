@@ -1,5 +1,5 @@
 import React from "react";
-import { tabs } from "../data";
+import { tabs } from "../../data";
 import Tab from "./Tab";
 
 type TopBarProps = {

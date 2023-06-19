@@ -1,9 +1,9 @@
-import Disclaimer from "../table/Disclaimer";
-import RateTable from "../table/RateTable";
-import TableContainer from "../table/TableContainer";
-import TableHead from "../table/TableHead";
-import TableHeadCell from "../table/TableHeadCell";
-import TopBar from "../table/TopBar";
+import Disclaimer from "../components/table/Disclaimer";
+import RateTable from "../components/table/RateTable";
+import TableContainer from "../components/table/TableContainer";
+import TableHead from "../components/table/TableHead";
+import TableHeadCell from "../components/table/TableHeadCell";
+import TopBar from "../components/table/TopBar";
 import ContentRow from "./ContentRow";
 import { Cds } from "./cdData";
 

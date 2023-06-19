@@ -1,7 +1,7 @@
 import Cell from "../components/table/Cell";
-import { CdType } from "./cdData";
+import { IraType } from "./iraData";
 
-const ContentRow = ({ accountType, apy }: CdType) => {
+const ContentRow = ({ accountType, apy }: IraType) => {
   return (
     <div className="grid grid-cols-2">
       <Cell content={accountType} />

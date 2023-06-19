@@ -1,4 +1,4 @@
-import Cell from "../table/Cell";
+import Cell from "../components/table/Cell";
 import { LoanType } from "./loanData";
 
 const ContentRow = ({ accountType, term, apr }: LoanType) => {
