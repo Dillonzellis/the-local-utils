@@ -4,7 +4,7 @@ type TableContainerProps = {
 
 const TableContainer = ({ children }: TableContainerProps) => {
   return (
-    <div className="min-w-[700px] max-w-[800px] overflow-x-auto">
+    <div className="min-w-[700px] max-w-[725px] overflow-x-auto pb-5">
       {children}
     </div>
   );

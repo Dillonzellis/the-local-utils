@@ -14,8 +14,8 @@ const page = () => {
 
   return (
     <div>
-      <TopBar activeTab="Savings Account" />
       <TableContainer>
+        <TopBar activeTab="Savings Account" />
         <RateTable>
           <TableHead cols="3">
             <TableHeadCell title="Account Type" />

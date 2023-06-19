@@ -11,8 +11,8 @@ import { iraData, iraDataTime } from "./iraData";
 const page = () => {
   return (
     <div>
-      <TopBar activeTab="IRA's" />
       <TableContainer>
+        <TopBar activeTab="IRA's" />
         <RateTable>
           <TableHead cols="2">
             <TableHeadCell title="Account Type" />

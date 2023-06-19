@@ -1,6 +1,6 @@
 export const tabs = [
-  { title: "Savings Account", link: "savings" },
-  { title: "Loan", link: "/loans" },
-  { title: "CD's", link: "/cds" },
-  { title: "IRA's", link: "iras" },
+  { title: "Savings Account", link: "/rates/savings.php" },
+  { title: "Loan", link: "/rates/loans.php" },
+  { title: "CD's", link: "/rates/cds.php" },
+  { title: "IRA's", link: "/rates/iras.php" },
 ];

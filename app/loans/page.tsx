@@ -11,8 +11,8 @@ import { Loans } from "./loanData";
 const LoanTable = () => {
   return (
     <div>
-      <TopBar activeTab="Loan" />
       <TableContainer>
+        <TopBar activeTab="Loan" />
         <RateTable>
           <TableHead cols="3">
             <TableHeadCell title="Account Type" />

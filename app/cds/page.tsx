@@ -10,8 +10,8 @@ import { Cds } from "./cdData";
 const page = () => {
   return (
     <div>
-      <TopBar activeTab="CD's" />
       <TableContainer>
+        <TopBar activeTab="CD's" />
         <RateTable>
           <TableHead cols="2">
             <TableHeadCell title="Account Type" />
