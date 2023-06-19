@@ -1,5 +1,5 @@
-import { LoanType } from "../loans/loanData";
-import Cell from "./Cell";
+import Cell from "../table/Cell";
+import { LoanType } from "./loanData";
 
 const ContentRow = ({ accountType, term, apr }: LoanType) => {
   return (

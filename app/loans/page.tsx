@@ -1,6 +1,6 @@
-import ContentRow from "../table/ContentRow";
 import Disclaimer from "../table/Disclaimer";
 import RateTable from "../table/RateTable";
+import ContentRow from "./ContentRow";
 
 import TableContainer from "../table/TableContainer";
 import TableHead from "../table/TableHead";
