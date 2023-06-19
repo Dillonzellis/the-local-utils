@@ -23,7 +23,10 @@ const page = () => {
           {Cds.map((cd, idx) => (
             <ContentRow key={idx} accountType={cd.accountType} apy={cd.apy} />
           ))}
-          <Disclaimer />
+          <Disclaimer
+            disclaimer="Rates stated above are for certificates with a minimum deposit of $500 which dividends are compounded and paid quarterly. A withdrawal of dividends before maturity will be subject to penalty and will reduce the APR. Please view the Truth-In-Savings Disclosure for complete details on specific Share Certificates, including account limitations, dividend compounding, dividend crediting and method used to compute dividends."
+            date="*APY is accurate as of March 31, 2023."
+          />
         </RateTable>
       </TableContainer>
     </div>

@@ -8,6 +8,10 @@ import ContentRow from "./ContentRow";
 import { savingsData } from "./savingsData";
 
 const page = () => {
+  const disclaimerLink = (
+    <a href="https://www.google.com">Truth-In Savings Disclosure</a>
+  );
+
   return (
     <div>
       <TopBar activeTab="Savings Account" />
@@ -29,7 +33,24 @@ const page = () => {
               apy={rate.apy}
             />
           ))}
-          <Disclaimer />
+          <Disclaimer
+            disclaimer={
+              <>
+                Please view the{" "}
+                <a
+                  className="font-bold text-primaryBlue-400"
+                  href="https://www.google.com">
+                  Truth-In Savings Disclosure
+                </a>{" "}
+                for complete details on each account type including account
+                limitations, dividend compounding, dividend crediting and the
+                method used to compute dividends. Fees or other conditions could
+                reduce the earnings in the account. Dividends are declared by
+                the Board of Directors and are subject to change.
+              </>
+            }
+            date="*APY is accurate as of March 31, 2023."
+          />
         </RateTable>
       </TableContainer>
     </div>
