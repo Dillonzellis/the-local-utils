@@ -1,13 +1,12 @@
-import React from "react";
-import { Loans } from "../data";
 import ContentRow from "../table/ContentRow";
 import Disclaimer from "../table/Disclaimer";
 import RateTable from "../table/RateTable";
-import Tab from "../table/Tab";
+
 import TableContainer from "../table/TableContainer";
 import TableHead from "../table/TableHead";
 import TableHeadCell from "../table/TableHeadCell";
 import TopBar from "../table/TopBar";
+import { Loans } from "./loanData";
 
 const LoanTable = () => {
   return (
