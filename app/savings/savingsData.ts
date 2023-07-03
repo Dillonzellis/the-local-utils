@@ -33,26 +33,26 @@ export const savingsData = [
   {
     accountType: "Money Market Account",
     mintoEarn: ">$2,500",
-    apy: "0.10",
+    apy: "0.25",
   },
   {
     accountType: "",
     mintoEarn: ">$25,000",
-    apy: "0.20",
+    apy: "0.75",
   },
   {
     accountType: "Christmas Club",
-    mintoEarn: ">$250",
+    mintoEarn: ">=$2,500",
     apy: "0.05",
   },
   {
     accountType: "Vacation/Special Savings",
-    mintoEarn: ">$250",
+    mintoEarn: ">=$2,500",
     apy: "0.05",
   },
   {
     accountType: "Checking Account",
-    mintoEarn: ">$500",
+    mintoEarn: ">=$2,500",
     apy: "0.01",
   },
 ];
