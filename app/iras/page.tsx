@@ -40,7 +40,7 @@ const page = () => {
                 the Board of Directors and are subject to change.
               </>
             }
-            date="*APY is accurate as of March 31, 2023."
+            date="*APY is accurate as of June 30, 2023."
           />
         </RateTable>
       </TableContainer>
