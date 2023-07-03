@@ -6,22 +6,22 @@ export type CdType = {
 export const Cds = [
   {
     accountType: "3 Month",
-    apy: "0.15%",
-  },
-  {
-    accountType: "6 Month",
     apy: "0.25%",
   },
   {
+    accountType: "6 Month",
+    apy: "0.75%",
+  },
+  {
     accountType: "12 Month",
-    apy: "0.50%",
+    apy: "1.00%",
   },
   {
     accountType: "24 Month",
-    apy: "0.70%",
+    apy: "1.25%",
   },
   {
     accountType: "36 Month",
-    apy: "0.85%",
+    apy: "1.50%",
   },
 ];
