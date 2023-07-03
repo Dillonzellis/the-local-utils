@@ -5,15 +5,15 @@ export type IraType = {
 
 export const iraData = [
   {
-    accountType: "Traditional IRA > 2,500",
+    accountType: "Traditional IRA >= $2,500",
     apy: "0.25%",
   },
   {
-    accountType: "Roth IRA > 2,500",
+    accountType: "Roth IRA >= $2,500",
     apy: "0.25%",
   },
   {
-    accountType: "Education Savings Account > 2,500",
+    accountType: "Education Savings Account >= $2,500",
     apy: "0.25%",
   },
 ];
